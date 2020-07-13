@@ -1,0 +1,139 @@
+<!--Contact page section-->
+<!-- style included -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris | Connect to us</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="icon" href="iconpng" type="image/icon type">
+
+<style>
+    
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    font-size: 2em;
+    padding: 1em;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* remove comment tag from next line if want fname and  lname on same line */
+
+/*#fname{
+    width: 41%;
+}
+#lname{
+    width: 45%;
+    margin-left: 10px;
+}
+*/
+input[type=text], select, textarea {
+
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: rgb(168, 218, 220);
+  padding: 20px;
+  margin-left:5%;
+  width: 40%;
+  float: left;
+}
+
+.container2 {
+  border-radius: 8px;
+  background-image: linear-gradient(to right, rgb(241, 250, 238), rgb(168, 218, 220));
+  padding: 12px;
+  margin-left:15%;
+  margin-top: 3%;
+  width: 10%;
+  float: left;
+}
+
+.containerbig {
+  border-radius: 5px;
+  background-color: rgb(168, 218, 220);
+  padding: 20px;
+  margin-left:15%;
+  margin-right:15%;
+  width: 70%;
+  float: left;
+}
+
+</style>
+
+</head>
+<body>
+<div class="containerbig">    
+
+<h3 style="margin-left:5%";>Reach Us</h3>
+
+<div class="container1">
+    <center>
+  <form action="/action_page.php">
+    <input type="text" id="name" name="name" placeholder="Name" required style="font-family:marker felt; font-size: 16px;">
+     <br>
+    <input type="text" id="name" name="name" placeholder="Email-id" required style="font-family:marker felt; font-size: 16px;">
+    <br>
+    <textarea id="subject" name="subject" placeholder="Query/Suggestion/help or Message" required style="height:100px;font-family:marker felt; font-size: 16px; "></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  </center>
+</div>
+
+<div class="container2">
+    
+        <ul style="list-style-type:none;">
+       <li> <h1><a href="#" style="color: black;"><i class="fab fa-github"></i></a></h1>
+        </li>
+        <li>
+            <h1><a href="#" style="color: black;">
+        <i class="fab fa-instagram"></i>
+    </a>
+        </h1>
+        </li>
+        <li>
+            <h1>
+                <a href="#" style="color: black;">
+        <i class="fab fa-linkedin"></i></h1>
+    </a>
+        </li>
+    </ul>
+
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1. to add hyperlinks to icons -->
+<!-- 2. to solve linear gradient responsiveness-->
+<!-- 3. to add form functionality-->
